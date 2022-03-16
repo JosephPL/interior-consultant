@@ -2,10 +2,6 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 
-
-
-
-
 function App() {
 
   return (
@@ -23,7 +19,6 @@ function Nav(){
       <div className="container-fluid">
         <a className="navbar-brand border" href="#">this interior</a>
         <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          {/* <FontAwesomeIcon icon={faBars}/>   */}
           <span className='toggler-icon top-bar'></span>
           <span className='toggler-icon middle-bar'></span>
           <span className='toggler-icon bottom-bar'></span>
@@ -38,34 +33,6 @@ function Nav(){
         </div>
       </div>
     </nav>
-
-
-
-    //     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    //   <div class="container-fluid">
-    //     <a class="navbar-brand" href="#">Navbar</a>
-    //     <button className=" d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    //        <span className='toggler-icon top-bar'></span>
-    //        <span className='toggler-icon middle-bar'></span>
-    //        <span className='toggler-icon bottom-bar'></span>
-    //     </button>
-    //     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    //       <div class="navbar-nav">
-    //         <a class="nav-link active" aria-current="page" href="#">Home</a>
-    //         <a class="nav-link" href="#">Features</a>
-    //         <a class="nav-link" href="#">Pricing</a>
-    //         <a class="nav-link disabled">Disabled</a>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </nav>
-
-
-
-
-
-
-
   );
 };
 
