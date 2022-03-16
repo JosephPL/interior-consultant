@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
-
+@import url('navBarIcon.css');
 body {
   background-color: #181719;
   color: #fff;
@@ -14,11 +14,6 @@ body {
 button {
   border: none;
   background-color: transparent;
-}
-
-.fa-bars {
-  color: #fff;
-  display: none;
 }
 
 .navbar-brand , .navbar-brand:hover {
@@ -143,11 +138,7 @@ section a , section a:hover {
   color: #A9A9A9;
 }
 @media (max-width: 991px) {
-  .fa-bars {
-    display: block;
-    font-size: 30px;
-  }
-
+  
   .navbar-collapse {
     height: 100vh;
     background: #181719;
