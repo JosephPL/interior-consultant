@@ -1,6 +1,8 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars , faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
+import { faBars , faArrowRightLong , faXmark} from '@fortawesome/free-solid-svg-icons';
+// import iconType from './icon';
+
 
 
 
@@ -21,7 +23,7 @@ function Nav(){
       <div className="container-fluid">
         <a className="navbar-brand border" href="#">this interior</a>
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <FontAwesomeIcon icon={faBars}/>
+          <IconType/>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
